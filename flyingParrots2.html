@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+section{
+  display:flex;
+  flex-wrap:wrap;
+}
+body{
+    background-image: url('media/background-10.jpg');
+    background-repeat: no-repeat;
+    background-position-x: left;
+    background-color:#336600;
+
+}
+.button{
+     font-family:Verdana, Geneva, Tahoma, sans-serif;
+     font-size: 20px;
+     color:#255503;
+     font-weight: 900;
+     text-decoration:none;
+     display:inline-block;
+      justify-content: center;
+     background: yellow;
+     box-shadow: 5px 5px 5px rgba(0,0,0,0.15);
+     padding: 8px;
+     margin: 10px;
+     margin-left: 75px;
+     margin-right: 25px;
+     border-radius: 10px;
+     }
+ a{
+     text-decoration: none;
+    color:#255503;
+     position:relative;
+                
+    }
+     nav{
+     text-decoration: none;
+     color:#255503;
+     }
+h1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size:50px;
+    color: yellow;
+    text-shadow:5px 5px 5px black;
+    font-weight: bolder;
+    text-decoration: black 1px 1px;
+    text-align: center;
+}
+h2{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size:45px;
+    color: yellow;
+    text-shadow:5px 5px 5px black;
+    font-weight: bolder;
+    text-decoration: black 1px 1px;
+    text-align: center;
+}
+p{
+	flex:1;
+	width:200px;
+}
+</style>
+   <script src="https://code.jquery.com/jquery-latest.js"></script>
+   <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+	<link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css"><script>
+      $(function()
+        {
+            $("#MoveMe1").draggable();
+            $("#MoveMe2").draggable();
+            $("#MoveMe3").draggable();
+            $("#MoveMe4").draggable();
+            $("#MoveMe5").draggable();
+            $("#MoveMe6").draggable();
+            $("#MoveMe7").draggable();
+            $("#MoveMe8").draggable(); 
+                              
+            
+        });
+</script>
+<title>Creating a Draggable Element</title>
+
+</head>
+<body>
+
+   <h1>Create Your Own Jungle Scene</h1>
+   <h2>Move the Parrots by dragging</h2>
+   <section>
+    <nav>
+     <button class=button> <a href="finalProject2.html">Jungle Home</a></button>
+     <button class=button> <a href="flyingParrots2.html">Flying Parrots</a></button>
+     <button class=button><a href="buzzyBee.html">Buzzy Bee</a></button>
+     <button class= button>  <a href="flutteringButterflies.html">Fluttering Butterflies</a></button>
+             
+       
+    </nav>
+</section>
+   <section>
+   <p id="MoveMe1"><img src="media/parrot-a.png" /></p>    
+   <p id="MoveMe2"><img src="media/parrot-b.png" /></p>
+   <p id="MoveMe3"><img src="media/parrot-c.png" /></p>
+   <p id="MoveMe4"><img src="media/parrot-d.png" /></p>
+   <p id="MoveMe5"><img src="media/parrot-e.png" /></p>
+   <p id="MoveMe6"><img src="media/parrot-i.png" /></p> 
+   <p id="MoveMe7"><img src="media/parrot-j.png" /></p> 
+   <p id="MoveMe8"><img src="media/parrot-h.png" /></p>
+            
+   </section>
+</body>
+</html>
